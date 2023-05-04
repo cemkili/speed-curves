@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "39F4D7B1-6E70-4E50-A093-EC9AFE0B3BFD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "160D762C-63D9-497E-A233-BA1674699B13"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedCurves/SpeedCurveViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "SpeedCurveView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "160D762C-63D9-497E-A233-BA1674699B13 - 6ff1de23a56eacb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedCurves.SpeedCurveView.style() -&gt; ()"
+                  moduleName = "SpeedCurves"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemkilinc/Desktop/SpeedCurves/SpeedCurves/SpeedCurveViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "160D762C-63D9-497E-A233-BA1674699B13 - 6ff1de23a56eacd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedCurves.SpeedCurveView.style() -&gt; ()"
+                  moduleName = "SpeedCurves"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemkilinc/Desktop/SpeedCurves/SpeedCurves/SpeedCurveViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5591645-1979-407D-8F3E-F78C17517E6C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedCurves/SpeedCurveViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "layoutSubviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98B306C5-F5E1-42B9-8CEA-4030E4EADC6C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedCurves/SpeedCurveViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "layoutSubviews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "98B306C5-F5E1-42B9-8CEA-4030E4EADC6C - eee3a6f66042df8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedCurves.SpeedCurveContainerView.layoutSubviews() -&gt; ()"
+                  moduleName = "SpeedCurves"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemkilinc/Desktop/SpeedCurves/SpeedCurves/SpeedCurveViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "98B306C5-F5E1-42B9-8CEA-4030E4EADC6C - eee3a6f66042dfaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedCurves.SpeedCurveContainerView.layoutSubviews() -&gt; ()"
+                  moduleName = "SpeedCurves"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemkilinc/Desktop/SpeedCurves/SpeedCurves/SpeedCurveViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "98B306C5-F5E1-42B9-8CEA-4030E4EADC6C - eee3a6f66042dfaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedCurves.SpeedCurveContainerView.layoutSubviews() -&gt; ()"
+                  moduleName = "SpeedCurves"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemkilinc/Desktop/SpeedCurves/SpeedCurves/SpeedCurveViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "620">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "876F96DF-7690-41BC-958B-01B54CAE114C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedCurves/Utils/Utils+UIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "centerOriginatedFrame"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B7A0FEC-9E8B-41EF-9699-307F7046B12D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedCurves/SecondaryScreen/SpeedCurve/SpeedCurveView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "layoutSubviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F979D0B1-BBF4-4021-8966-BCB162E6D6C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedCurves/PrimaryScreen/PrimaryScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "handleTapStartButton()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F979D0B1-BBF4-4021-8966-BCB162E6D6C7 - 6ede440fee809421"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedCurves.PrimaryScreenViewController.handleTapStartButton() -&gt; ()"
+                  moduleName = "SpeedCurves"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemkilinc/Desktop/SpeedCurves/SpeedCurves/PrimaryScreen/PrimaryScreenViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "F979D0B1-BBF4-4021-8966-BCB162E6D6C7 - 6ede440fee809421"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedCurves.PrimaryScreenViewController.handleTapStartButton() -&gt; ()"
+                  moduleName = "SpeedCurves"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemkilinc/Desktop/SpeedCurves/SpeedCurves/PrimaryScreen/PrimaryScreenViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B757DD6-F590-4847-8A81-7BFA7D437D04"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedCurves/PrimaryScreen/PrimaryScreenContainerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "didTapStartButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7142836F-8A42-4CF1-A44F-CE64B8D6F3A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedCurves/PrimaryScreen/PrimaryScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "primaryScreenContainerModel"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01B7E518-E43C-44BE-B0FF-81E519747641"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedCurves/PrimaryScreen/PrimaryScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "handleSliderValueChanged(value:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

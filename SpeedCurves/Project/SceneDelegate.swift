@@ -14,17 +14,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
     guard let windowScene = (scene as? UIWindowScene) else { return }
     window = UIWindow(windowScene: windowScene)
-    let viewController = PrimaryScreenViewController()
-    viewController.primaryScreenContainerModel = {
-      .init(.init(
-        projectImages: (0...99).compactMap {
-          UIImage(named: String($0))
-        },
-        isPlaying: false,
-        currentProjectFrame: 0,
-        currentMediaFrame: 0
-      ))
+
+    let mediaImages: [UIImage] = {
+      (0...99).compactMap {
+        UIImage(named: String($0))
+      }
     }()
+
+    let speedCurveModel: SpeedCurveVM = .init(
+      firstCurveSpeed: 0.2,
+      middleCurveSpeed: 4.7,
+      middleCurveXRatio: 6 / 99,
+      lastCurveSpeed: 3.77
+    )
+    let viewController = PrimaryScreenViewController(mediaImages: mediaImages, speedCurveModel: speedCurveModel)
+
     window?.rootViewController = viewController
     window?.makeKeyAndVisible()
   }

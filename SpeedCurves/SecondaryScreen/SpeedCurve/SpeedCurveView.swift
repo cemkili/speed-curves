@@ -108,12 +108,12 @@ extension SpeedCurveView {
 // MARK: - Model
 
 struct SpeedCurveVM {
-  private var firstCurveSpeed: CGFloat
-  private var middleCurveSpeed: CGFloat
-  private var middleCurveXRatio: CGFloat
-  private var lastCurveSpeed: CGFloat
+  var firstCurveSpeed: Decimal
+  var middleCurveSpeed: Decimal
+  var middleCurveXRatio: Decimal
+  var lastCurveSpeed: Decimal
 
-  init(firstCurveSpeed: CGFloat, middleCurveSpeed: CGFloat, middleCurveXRatio: CGFloat, lastCurveSpeed: CGFloat) {
+  init(firstCurveSpeed: Decimal, middleCurveSpeed: Decimal, middleCurveXRatio: Decimal, lastCurveSpeed: Decimal) {
     self.firstCurveSpeed = firstCurveSpeed
     self.middleCurveSpeed = middleCurveSpeed
     self.middleCurveXRatio = middleCurveXRatio
@@ -128,18 +128,21 @@ extension SpeedCurveVM {
 
   fileprivate func middleCurveCircleRelativePosition(containerSize: CGSize) -> CGPoint {
     .init(
-      x: containerSize.width * middleCurveXRatio,
+      x: containerSize.width * middleCurveXRatio.cgFloatValue,
       y: self.speedToRelativePositionY(speed: self.middleCurveSpeed, containerSize: containerSize)
     )
   }
 
   fileprivate func lastCurveCircleRelativePosition(containerSize: CGSize) -> CGPoint {
-    .init(x: containerSize.width, y: self.speedToRelativePositionY(speed: self.lastCurveSpeed, containerSize: containerSize))
+    .init(
+      x: containerSize.width,
+      y: self.speedToRelativePositionY(speed: self.lastCurveSpeed, containerSize: containerSize)
+    )
   }
 
-  private func speedToRelativePositionY(speed: CGFloat, containerSize: CGSize) -> CGFloat {
+  private func speedToRelativePositionY(speed: Decimal, containerSize: CGSize) -> CGFloat {
     speed < 1
-    ? containerSize.height * (1 - (speed - 0.2) / 0.2 / 8)
-    : containerSize.height * (1 - ((speed - 1) / 8 + 0.5))
+    ? containerSize.height * CGFloat(1 - (speed.floatValue - 0.2) / 0.2 / 8)
+    : containerSize.height * CGFloat(1 - ((speed.floatValue - 1) / 8 + 0.5))
   }
 }

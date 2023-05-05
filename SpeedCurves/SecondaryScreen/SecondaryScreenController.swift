@@ -34,8 +34,8 @@ extension SecondaryScreenController {
     lastCurveCirclePosition: CGPoint,
     safeAreaRect: CGRect
   ) {
-    let getSpeedFromPosition: (CGPoint) -> CGFloat = {
-      let ratioY = 1 - (($0.y - safeAreaRect.origin.y) / safeAreaRect.height)
+    let getSpeedFromPosition: (CGPoint) -> Float = {
+      let ratioY = Float(1 - (($0.y - safeAreaRect.origin.y) / safeAreaRect.height))
 
       if ratioY > 0.5 {
         return 1 + ((ratioY - 0.5) * 8)
@@ -44,9 +44,10 @@ extension SecondaryScreenController {
       }
     }
     self.secondaryScreenContainerModel.speedCurveModel = .init(
-      firstCurveSpeed: getSpeedFromPosition(firstCurveCirclePosition),
-      middleCurveSpeed: getSpeedFromPosition(middleCurveCirclePosition),
-      middleCurveXRatio: (middleCurveCirclePosition.x - safeAreaRect.origin.x) / safeAreaRect.width,
-      lastCurveSpeed: getSpeedFromPosition(lastCurveCirclePosition))
+      firstCurveSpeed: Decimal(Double(getSpeedFromPosition(firstCurveCirclePosition))),
+      middleCurveSpeed: Decimal(Double(getSpeedFromPosition(middleCurveCirclePosition))),
+      middleCurveXRatio: Decimal((middleCurveCirclePosition.x - safeAreaRect.origin.x) / safeAreaRect.width),
+      lastCurveSpeed: Decimal(Double(getSpeedFromPosition(lastCurveCirclePosition)))
+    )
   }
 }

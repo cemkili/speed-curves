@@ -3,8 +3,8 @@ import UIKit
 
 class PlayerView: UIImageView {
   private var timer: Timer?
-  private var currentFrame: Int?
-  private var images: [UIImage]?
+  @MainActor private var currentFrame = 0
+  @MainActor private var images: [UIImage] = []
 
   convenience init() {
     self.init(frame: .zero)
@@ -26,22 +26,16 @@ class PlayerView: UIImageView {
     self.layer.cornerRadius = 16
   }
 
-  func setImages(images: [UIImage]) {
-    self.images = images
-  }
-
   func play() {
     self.timer = Timer.scheduledTimer(withTimeInterval: 1/30, repeats: true) { [weak self] timer in
-      guard let self = self,
-            let currentFrame = self.currentFrame,
-            let images = self.images
-      else { return }
+      guard let self = self, self.images.count > 0 else { return }
+      self.currentFrame += 1
 
-      if currentFrame >= images.count - 1 {
-        self.setCurrentFrame(frame: 0)
-      } else {
-        self.setCurrentFrame(frame: currentFrame + 1)
+      if self.currentFrame >= self.images.count {
+        self.currentFrame = 0
       }
+
+      self.image = images[self.currentFrame]
     }
   }
 
@@ -50,11 +44,13 @@ class PlayerView: UIImageView {
     self.timer = nil
   }
 
+  func setImages(images: [UIImage]) {
+    self.images = images
+    self.currentFrame = 0
+  }
+
   func setCurrentFrame(frame: Int) {
-    guard let images = self.images,
-          frame < images.count,
-          frame >= 0
-    else { return }
+    guard frame < images.count, frame >= 0 else { return }
     self.currentFrame = frame
     self.image = images[frame]
   }
